@@ -1,0 +1,18 @@
+<orders>
+    <order>
+        <handler></handler>
+        <id></id>
+        <shipTo>
+            <name></name>
+            <addresslines></addresslines>
+            <city></city>
+            <country></country>
+        </shipTo>
+        <item>
+            <title></title>
+            <id></id>
+            <quantity></quantity>
+            <price></price>
+        </item>
+    </order>
+</orders>

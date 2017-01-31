@@ -1,0 +1,16 @@
+<CD_Catalogue>
+    <CD>
+        <title>Resistance</title>
+        <artist>Muse</artist>
+        <company>Warner Bros.</company>
+        <price>20</price>
+        <year>2011</year>
+    </CD>
+    <CD>
+        <title>Octavarium</title>
+        <artist>Dream Theater</artist>
+        <company>Atlantic</company>
+        <price>14.99</price>
+        <year>2005</year>
+    </CD>
+</CD_Catalogue>
