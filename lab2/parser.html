@@ -8,15 +8,14 @@
 <script type='text/javascript'>
 
 /// Load XML file...
-var doc = new ActiveXObject( "Microsoft.XMLDOM" )
-doc.async = false;
-doc.load("order.xml");
-
-var error = doc.parseError;
-if (error != "")
-{
-    alert(error.reason);
-}
+var xhttp = new XMLHttpRequest();
+xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+    myFunction(this);
+    }
+};
+xhttp.open("GET", "order.xml", true);
+xhttp.send();
 
 /// Write HTML output...
 document.write("<b>XML Root Tag Name: " + doc.documentElement.tagName + "<br/><br/></b>");
@@ -27,7 +26,11 @@ var orderTotal = 0.00;
 /// Loop all elements...
 for (i=0; i<rootChildren.length; i++) {
 
-    ///Add your code here...
+    var xmlDoc = xml.responseXML;
+    var test = doc.documentElement.childNodes[i];
+    var test2 = test.childNodes[i];
+    console.log(test2);
+    document.write(test2.textContent);
 }
 
 ///document.write("<br/><br/><i><b>Order Total: " + orderTotal.toFixed(2) + "</b></i>");
