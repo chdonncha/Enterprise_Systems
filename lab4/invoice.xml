@@ -1,0 +1,5 @@
+<?xml version="1.0"?> <invoice xmlns="http://www.dit.ie"   
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"    
+xsi:schemaLocation="http://www.dit.ie invoice.xsd"> 
+<invoice></invoice>
+

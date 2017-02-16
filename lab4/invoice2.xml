@@ -1,0 +1,23 @@
+<invoice>
+    <number></number>
+    <date></date>
+    <total></total>
+    <issuedby>
+        <employee></employee>
+        <address></address>
+        <city></city>
+        <country></country>
+    </issuedby>
+    <billto>
+        <company></company>
+        <address></address>
+        <city></city>
+        <country></country>
+    </billto>
+    <item></item>
+    <paymentinformation>
+        <method></method>
+        <code></code>
+        <bank></bank>
+    </paymentinformation> 
+</invoice>
